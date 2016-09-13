@@ -19,7 +19,7 @@
     [super viewDidLoad];
     
     self.titleStr = @"自定义NavBar";
-    [self leftTextNormalStr:@"右边按钮"  withHlightedStr:@"点击中" withAction:@selector(leftBtnClicked)];
+    [self leftTextNormalStr:@"左边按钮"  withHlightedStr:@"点击中" withAction:@selector(leftBtnClicked)];
     [self rightTextNormalStr:@"按钮" withAction:@selector(rightBtnClicked)];
 
     UIButton *pushBtn = [[UIButton alloc] initWithFrame:CGRectMake(80, 150, 74, 44)];
