@@ -166,7 +166,8 @@
         [self.navBar addSubview:btn];
         _rightBtn = btn;
     }
-    
+    [_rightBtn sizeToFit];
+    self.titleLabel.adjustsFontSizeToFitWidth = YES;
     return _rightBtn;
 }
 
