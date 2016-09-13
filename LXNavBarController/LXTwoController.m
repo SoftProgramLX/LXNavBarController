@@ -16,7 +16,7 @@
     self.view.backgroundColor = [UIColor blueColor];
     
     [self leftImageNormalStr:@"back" withHlightedStr:@"back_sel" withAction:@selector(back:)];
-    [self rightTextNormalStr:@"按钮" withAction:@selector(btn)];
+    [self rightImageNormalStr:@"s_add" withAction:@selector(btn)];
 }
 
 - (void)btn

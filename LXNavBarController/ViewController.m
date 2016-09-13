@@ -20,8 +20,8 @@
     
     self.titleStr = @"自定义NavBar";
     [self leftTextNormalStr:@"右边按钮"  withHlightedStr:@"点击中" withAction:@selector(btn)];
-    [self rightImageNormalStr:@"s_add" withAction:@selector(btn)];
-    
+    [self rightTextNormalStr:@"按钮" withAction:@selector(btn)];
+
     UIButton *pushBtn = [[UIButton alloc] initWithFrame:CGRectMake(80, 150, 74, 44)];
     pushBtn.backgroundColor = [UIColor redColor];
     [pushBtn setTitle:@"push" forState:UIControlStateNormal];
